@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Welcome to my Blog"
-subtitle:   " \"Hello World, Hello Blog\""
+title:      "appium环境搭建"
+subtitle:   " appium"
 date:       2016-09-12 00:35:00
 author:     "shiciki"
 header-img: "img/post-bg-2015.jpg"
