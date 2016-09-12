@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "appium环境搭建"
-subtitle:   " "
+subtitle:   "简洁明快的appium教程"
 date:       2016-09-12 12:35:00
 author:     "shiciki"
 header-img: "img/post-bg-2015.jpg"
