@@ -7,10 +7,10 @@ author:     "shiciki"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - appium
-    -自动化测试
-	-IOS
-	-android
-	-python
+    - 自动化测试
+	- IOS
+	- android
+	- python
 ---
 
 appium网上教程也有很多了，但搭建的时候发现很多教程使用appium的版本较老，使得安装程序较为复杂，实际上并不需要那么复杂
