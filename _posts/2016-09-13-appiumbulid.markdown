@@ -20,7 +20,7 @@ appium可以直接去[官网](http://appium.io/index.html?lang=zh)下载安装,�
 
 下载完成后，记得配置appium的环境变量
 
->\node_modules\.bin  
+>\node_modules\\.bin  
 
 如果以前没有安装过node，那么appium安装路径下已经集成了node，同样需要将路径加到环境变量path中
 
