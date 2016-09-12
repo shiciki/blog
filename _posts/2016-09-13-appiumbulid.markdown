@@ -49,3 +49,50 @@ PATH中添加 %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
 
 配置完成后，在cmd中输入javac，看到命令提示信息就表示已经配置完成了
 
+Android SDK可以在官网下载
+[戳我下载](http://developer.android.com/sdk/index.html)
+安装完成后，同样需要配置环境变量
+
+>ANDROID_HOME  path of SDK  
+PATH  %ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;  
+
+装完这些后在cmd里再输入appium-doctor检查，是不是全部OK了？
+
+![检查成功](/blog/img/post-160912.png)
+
+到这一步，appium环境已经搭建完毕了，但appium还需要编写脚本运行。下面以python为例，调试appium的一个demo
+
+#### 3、python
+首先安装python，python3可以在{官网下载}(https://www.python.org/downloads/)安装
+安装完成后，依然是老套路配置环境变量，把安装路径添加到PATH里
+之后安装Appium-Python-Client
+{下载地址}(https://pypi.python.org/pypi/Appium-Python-Client)
+下载完成后，在cmd中 cd 到下载的路径
+然后输入
+
+> $ python setup.py install   
+
+其他语言安装方法类似（大概
+
+然后就挂上机器或者模拟器跑一个demo试试了
+
+>#coding:utf-8  
+from appium import webdriver  
+from time import sleep  
+  
+desired_caps = {}  
+desired_caps['platformName'] = 'Android'  
+desired_caps['platformVersion'] = '4.4'  
+desired_caps['deviceName'] = 'Android Emulator'  
+desired_caps['app'] = 'Calculator.apk'  
+desired_caps['appPackage'] = 'com.android.calculator2'  
+desired_caps['appActivity'] = '.Calculator'  
+  
+dr = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)  
+sleep(3)  
+  
+dr.find_element_by_id('com.android.calculator2:id/digit9').click()  
+
+如果运行成功，恭喜你appium已经配置好了
+如果配置过程出现任何问题，也欢迎在下方留言~
+
