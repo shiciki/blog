@@ -76,22 +76,22 @@ PATH  %ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;
 
 然后就挂上机器或者模拟器跑一个demo试试了:
 
->#coding:utf-8  
-from appium import webdriver  
-from time import sleep  
-/n   
-desired_caps = {}  
-desired_caps['platformName'] = 'Android'  
-desired_caps['platformVersion'] = '4.4'  
-desired_caps['deviceName'] = 'Android Emulator'  
-desired_caps['app'] = 'Calculator.apk'  
-desired_caps['appPackage'] = 'com.android.calculator2'  
-desired_caps['appActivity'] = '.Calculator'  
-/n  
-dr = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)  
-sleep(3)  
-/n   
-dr.find_element_by_id('com.android.calculator2:id/digit9').click()  
+    #coding:utf-8  
+    from appium import webdriver  
+    from time import sleep  
+    \n   
+    desired_caps = {}  
+    desired_caps['platformName'] = 'Android'  
+    desired_caps['platformVersion'] = '4.4'  
+    desired_caps['deviceName'] = 'Android Emulator'  
+    desired_caps['app'] = 'Calculator.apk'  
+    desired_caps['appPackage'] = 'com.android.calculator2'  
+    desired_caps['appActivity'] = '.Calculator'  
+    \n  
+    dr = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)  
+    sleep(3)  
+    \n   
+    dr.find_element_by_id('com.android.calculator2:id/digit9').click()  
 
 如果运行成功，恭喜你appium已经配置好了
 如果配置过程出现任何问题，也欢迎在下方留言~
