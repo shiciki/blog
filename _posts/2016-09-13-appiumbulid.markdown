@@ -74,12 +74,12 @@ PATH  %ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;
 
 其他语言安装方法类似（大概
 
-然后就挂上机器或者模拟器跑一个demo试试了
+然后就挂上机器或者模拟器跑一个demo试试了:
 
 >#coding:utf-8  
 from appium import webdriver  
 from time import sleep  
-/n    
+/n   
 desired_caps = {}  
 desired_caps['platformName'] = 'Android'  
 desired_caps['platformVersion'] = '4.4'  
