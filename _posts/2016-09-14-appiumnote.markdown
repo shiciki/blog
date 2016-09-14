@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "appium学习笔记"
-subtitle:   "appium-python-API，坑点"
+title:      "appium学习笔记之API"
+subtitle:   "appium-python-API"
 date:       2016-09-14 14:48:00
 author:     "shiciki"
 header-img: "img/post-bg-2015.jpg"
