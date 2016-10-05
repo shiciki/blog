@@ -2,7 +2,7 @@
 layout:     post
 title:      "unittest搭建框架"
 subtitle:   "用例整合以及HTMLTestRunner输出测试报告"
-date:       2016-10-05 17:30:00
+date:       2016-10-05 17:35:00
 author:     "shiciki"
 header-img: "img/post-bg-2015.jpg"
 tags:
