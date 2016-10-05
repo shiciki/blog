@@ -2,7 +2,7 @@
 layout:     post
 title:      "unittest构建自动化框架及生成测试报告"
 subtitle:   "appium-python-API"
-date:       2016-09-14 14:48:00
+date:       2016-10-05 17:30:00
 author:     "shiciki"
 header-img: "img/post-bg-2015.jpg"
 tags:
