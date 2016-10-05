@@ -80,7 +80,9 @@ demo比较长，这里提供一个简单的demo作为参考
 ### python3下的HTMLTestRunner
 
 HTMLTestRunner原作者是使用python2写的，所以使用python3的同学需要进行改写
+
 [参考文章](http://bbs.chinaunix.net/thread-4154743-1-1.html)
+
 第94行，将import StringIO修改成import io
 
 第539行，将self.outputBuffer = StringIO.StringIO()修改成self.outputBuffer= io.StringIO()
