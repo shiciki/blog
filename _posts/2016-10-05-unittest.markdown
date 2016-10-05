@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "unittest构建自动化框架及生成测试报告"
-subtitle:   "unittest及HTMLTestRunner的使用"
+title:      "appium学习笔记之unittest"
+subtitle:   ""
 date:       2016-10-05 17:30:00
 author:     "shiciki"
 header-img: "img/post-bg-2015.jpg"
