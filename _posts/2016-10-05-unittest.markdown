@@ -10,7 +10,7 @@ tags:
     - 自动化测试
     - python
 	- unittest
-	- HTMLTestRunner
+    - HTMLTestRunner
 ---
 
 ### unittest
@@ -94,5 +94,7 @@ HTMLTestRunner原作者是使用python2写的，所以使用python3的同学需�
 第775行，将ue = e.decode(‘latin-1‘)修改成ue = e
 
 第631行，将print >> sys.stderr, ‘\nTime Elapsed: %s‘ %(self.stopTime-self.startTime)修改成print(sys.stderr, ‘\nTimeElapsed: %s‘ % (self.stopTime-self.startTime))
+
+以上就是使用unittest和htmlrunner构建python自动化基础构架的基础流程。
 
 
