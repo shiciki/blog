@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "appium学习笔记之unittest"
-subtitle:   ""
+title:      "unittest搭建框架"
+subtitle:   "用例整合以及HTMLTestRunner输出测试报告"
 date:       2016-10-05 17:30:00
 author:     "shiciki"
 header-img: "img/post-bg-2015.jpg"
@@ -11,7 +11,6 @@ tags:
 	- unittest
     - HTMLTestRunner
 ---
-
 ### unittest
 
 正如JAVA使用junit,python下也集成了一套测试框架unittest
