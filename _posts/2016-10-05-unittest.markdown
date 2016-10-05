@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "unittest构建自动化框架及生成测试报告"
+title:      "构建自动化框架及生成测试报告"
 subtitle:   "unittes及HTMLTestRunner的使用"
 date:       2016-10-05 17:30:00
 author:     "shiciki"
