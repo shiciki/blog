@@ -57,9 +57,9 @@ tags:
 	suite = unittest.TestSuite()
 	suite.addTest(homeHelpmefound.homehelpTest('test_case1'))
 	
-###HTMLTestRunner
+### HTMLTestRunner
 
-HTML可以在[这里](http://tungwaiyip.info/software/HTMLTestRunner.html)下载
+HTMLTestRunner可以在[这里](http://tungwaiyip.info/software/HTMLTestRunner.html)下载
 并且该地址还提供了一个demo  test_HTMLTestRunner.py 来作为参考
 
 demo比较长，这里提供一个简单的demo作为参考
@@ -79,7 +79,7 @@ demo比较长，这里提供一个简单的demo作为参考
 	
 之后可以在设置的路径下生成简单测试报告
 	
-###python3下的HTMLTestRunner
+### python3下的HTMLTestRunner
 
 HTMLTestRunner原作者是使用python2写的，所以使用python3的同学需要进行改写
 [参考文章](http://bbs.chinaunix.net/thread-4154743-1-1.html)
