@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "构建自动化框架及生成测试报告"
-subtitle:   "unittes及HTMLTestRunner的使用"
+title:      "unittest构建自动化框架及生成测试报告"
+subtitle:   "unittest及HTMLTestRunner的使用"
 date:       2016-10-05 17:30:00
 author:     "shiciki"
 header-img: "img/post-bg-2015.jpg"
@@ -12,6 +12,7 @@ tags:
 	- unittest
 	- HTMLTestRunner
 ---
+
 ### unittest
 
 正如JAVA使用junit,python下也集成了一套测试框架unittest
@@ -57,6 +58,7 @@ tags:
 	suite.addTest(homeHelpmefound.homehelpTest('test_case1'))
 	
 ###HTMLTestRunner
+
 HTML可以在[这里](http://tungwaiyip.info/software/HTMLTestRunner.html)下载
 并且该地址还提供了一个demo  test_HTMLTestRunner.py 来作为参考
 
@@ -78,6 +80,7 @@ demo比较长，这里提供一个简单的demo作为参考
 之后可以在设置的路径下生成简单测试报告
 	
 ###python3下的HTMLTestRunner
+
 HTMLTestRunner原作者是使用python2写的，所以使用python3的同学需要进行改写
 [参考文章](http://bbs.chinaunix.net/thread-4154743-1-1.html)
 第94行，将import StringIO修改成import io
